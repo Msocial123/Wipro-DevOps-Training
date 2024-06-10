@@ -7,3 +7,11 @@
     7  systemctl enable jenkins
     8  systemctl start jenkins
     9  systemctl status jenkins
+
+
+    Install Jenkins on Ubuntu :
+
+        curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo tee \
+    /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+
+    

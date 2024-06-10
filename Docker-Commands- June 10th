@@ -1,0 +1,25 @@
+1  docker ps -a
+    2  docker start a3083ceaa42d
+    3  docker ps -a
+    4  docker create -it --name webserver ubuntu /bin/bash
+    5  docker ps
+    6  docker ps -a
+    7  docker start webserver
+    8  docker ps -a
+    9  docker ps
+   10  docker inspect webserver
+   11  docker images
+   12  clear
+   13  docker ps
+   14  docker attach webserver
+   15  docker ps
+   16  docker ps -a
+   17  docker start webserver
+   18  docker attach webserver
+   19  docker ps
+   20  docker run -it --name Web-app amazonlinux /bin/bash
+   21  docker ps -a
+   22  docker ps
+   23  docker stop web-app
+   24  docker stop Web-app
+   25  docker ps -a
