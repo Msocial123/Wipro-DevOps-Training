@@ -20,9 +20,8 @@ spec:
     spec:
       containers:
         - name: node-app 
-          imagePullPolicy: Always
           image: muralisocial123/node-app-example:latest
           ports:
-            - containerPort: 3000
-            
+            - containerPort: 3000    
+
 
